@@ -38,7 +38,7 @@
                         <a class="nav-item nav-link" href="">Profile <span
                                 class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="/tugas/kampus.php">Kampus</a>
-                        <a class="nav-item nav-link" href="#">Daftar</a>
+                        <a class="nav-item nav-link" href="/tugas/daftar.php">Daftar</a>
                     </div>
                 </div>
             </nav>
