@@ -8,40 +8,25 @@ $jurusan1 = $_POST['jurusan1'];
 $jurusan2 = $_POST['jurusan2'];
 
 //write to nama data
-$txtnama = fopen("../tugas/data/nama.txt","a");
-fwrite($txtnama, $nama);
-fwrite($txtnama,"\n");
-fclose($txtnama);
+$txtdata = fopen("../tugas/data/nama.txt","a");
+fwrite($txtdata, $nama,);
+fwrite($txtdata,"\t");
+fclose($txtdata);
 
-//write to jenis kelamin data
-$txtkelamin = fopen("../tugas/data/kelamin.txt","a");
-fwrite($txtkelamin, $kelamin);
-fwrite($txtkelamin,"\n");
-fclose($txtkelamin);
+$txtdata = fopen("../tugas/data/nama.txt","a");
+fwrite($txtdata, $kelamin,);
+fwrite($txtdata,"\t");
+fclose($txtdata);
 
-//write to agama data
-$txtagama = fopen("../tugas/data/agama.txt","a");
-fwrite($txtagama, $agama);
-fwrite($txtagama,"\n");
-fclose($txtagama);
+$txtdata = fopen("../tugas/data/nama.txt","a");
+fwrite($txtdata, $alamat,);
+fwrite($txtdata,"\t");
+fclose($txtdata);
 
-//write to alamat data
-$txtalamat = fopen("../tugas/data/alamat.txt","a");
-fwrite($txtalamat, $alamat);
-fwrite($txtalamat,"\n");
-fclose($txtalamat);
-
-//write to jurusan 1 data
-$txtjurusan1 = fopen("../tugas/data/jurusan1.txt","a");
-fwrite($txtjurusan1, $jurusan1);
-fwrite($txtjurusan1,"\n");
-fclose($txtjurusan1);
-
-//write to jurusan 2 data
-$txtjurusan2 = fopen("../tugas/data/jurusan2.txt","a");
-fwrite($txtjurusan2, $jurusan2);
-fwrite($txtjurusan2,"\n");
-fclose($txtjurusan2);
+$txtdata = fopen("../tugas/data/nama.txt","a");
+fwrite($txtdata, $agama);
+fwrite($txtdata,"\n");
+fclose($txtdata);
 
 $message = "Berhasil di simpan";
 echo "<script type='text/javascript'>alert('$message');</script>";
