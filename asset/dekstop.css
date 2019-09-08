@@ -1,0 +1,149 @@
+@media only screen and (min-width: 1024px) {
+
+    /* Desktop style */
+    /* Universal */
+    html {
+        position: relative;
+    }
+
+    body {
+        margin: 0 90px 100px 50px;
+
+    }
+
+    /* Head */
+    .head-name {
+        min-height: 400px;
+        line-height: 400px;
+    }
+
+    .head-name h2 {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        font-size: 72px;
+    }
+
+    .contain-name span {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .contain-name p {
+        font-family: "Open Sans";
+        font-size: 24px;
+    }
+
+    .contain-name hr {
+        width: 235px;
+        border-top: 3px solid #fc4169;
+        border-radius: 5px;
+    }
+
+    /* body */
+    .contain-body {
+        margin: 50px 0;
+        display: flex;
+    }
+
+    .contain-body img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin: 0 50px
+    }
+
+    .contain-body .porto {
+        margin: -32px 0 0 50px;
+    }
+
+    .porto h2 {
+        font-family: "Open Sans";
+        text-transform: uppercase;
+        font-size: 32px;
+    }
+
+    .porto .personal {
+        padding: 0 10px 15px 10px;
+    }
+
+    .porto .personal p {
+        font-family: "Open Sans";
+        font-size: 20px;
+        padding: 0 0 0 0;
+        color: rgb(99, 99, 99);
+    }
+
+    .porto .personal hr {
+        border-top: 2px solid #7dbdf1;
+        border-radius: 5px;
+    }
+
+    .contain-body span {
+        font-weight: bold;
+    }
+
+    .porto p {
+        font-family: "Open Sans";
+        font-size: 20px;
+        padding: 0 10px 30px 10px;
+        color: rgb(99, 99, 99);
+    }
+
+    /* Find */
+    .contain-find {
+        margin: 0 0 50px 0;
+    }
+
+    .contain-find p {
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 22px;
+    }
+
+    .contain-find p span {
+        font-family: "Open Sans";
+        font-size: 22px;
+        color: blue
+    }
+
+    .contain-find .img {
+        text-align: center;
+    }
+
+    .contain-find .img a {
+        text-decoration: none;
+    }
+
+    .contain-find img {
+        text-align: center;
+        width: 40px;
+        padding: 0 14px 0 14px;
+    }
+
+    /* Footer */
+    .contain-footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        min-height: 72px;
+        margin-top: 40px;
+        text-align: center;
+        background-color: #272727;
+    }
+
+    .contain-footer p {
+        font-family: "Open Sans";
+        font-size: 18px;
+        color: white;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .contain-footer i {
+        color: #ff0d24;
+    }
+
+
+}
